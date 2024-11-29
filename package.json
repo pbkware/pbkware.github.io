@@ -1,6 +1,7 @@
 {
   "name": "pbkware",
   "type": "module",
+  "private": true,
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
@@ -9,8 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.16.16",
     "@astrojs/check": "^0.9.4",
+    "@pbkware/astro-main-menu": "^0.0.3",
+    "astro": "^4.16.16",
+    "sass": "^1.81.0",
     "typescript": "^5.7.2"
   }
 }
