@@ -1,10 +1,11 @@
 ---
 layout: ../layouts/Base.astro
-title: 'pbkware software'
+title: 'pbkware'
 ---
 
-# pbkware software
+# Directory
 
 Note all software available from this website is provided as is, with no warranty what so ever.
 
-1. [Astro Main Menu](./astro-main-menu)
+* [Astro Main Menu](./astro-main-menu)
+* [Fielded Text](./fielded-text)
