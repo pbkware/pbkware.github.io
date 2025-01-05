@@ -7,5 +7,5 @@ title: 'pbkware'
 
 Note all software available from this website is provided as is, with no warranty what so ever.
 
-* [Astro Main Menu](./astro-main-menu)
-* [Fielded Text](./fielded-text)
+* [Astro Main Menu](./astro-main-menu/)
+* [Fielded Text](./fielded-text/)
