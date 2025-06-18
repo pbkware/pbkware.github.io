@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@pbkware/astro-main-menu": "^0.0.3",
-    "astro": "^4.16.16",
-    "sass": "^1.81.0",
-    "typescript": "^5.7.2"
+    "@pbkware/astro-main-menu": "^3.0.0",
+    "astro": "^5.9.3",
+    "sass": "^1.89.2",
+    "typescript": "^5.8.3"
   }
 }
