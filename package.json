@@ -10,10 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.9",
+    "@astrojs/check": "^0.9.10",
     "@pbkware/astro-main-menu": "^4.1.0",
-    "astro": "^7.0.9",
-    "sass": "^1.101.0",
+    "astro": "^7.3.2",
+    "sass": "^1.104.1",
     "typescript": "^6.0.3"
   }
 }
