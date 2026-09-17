@@ -1,25 +1,33 @@
-<!-- pbkware favicon: PBK monogram on a developer-themed rounded tile -->
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-    <defs>
-        <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0" stop-color="#0f172a"/>
-            <stop offset="1" stop-color="#1e293b"/>
-        </linearGradient>
-        <linearGradient id="letters" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#22d3ee"/>
-            <stop offset="1" stop-color="#3b82f6"/>
-        </linearGradient>
-    </defs>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
 
-    <!-- Rounded dark tile -->
-    <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#tile)" stroke="#334155" stroke-width="1"/>
+  <!-- Rounded dark tile -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#tile)" stroke="#334155" stroke-width="1"/>
 
-    <!-- Subtle terminal prompt chevron motif (developer/software theme) -->
-    <path d="M10 18 L18 24 L10 30" fill="none" stroke="#22d3ee" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+  <!-- PBK drawn as monoline paths (no font dependency): top half, y = 10..34 -->
+  <g fill="none" stroke="url(#ink)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
 
-    <!-- PBK monogram -->
-    <text x="36" y="43" font-family="'Courier New', ui-monospace, 'SF Mono', Consolas, monospace" font-size="24" font-weight="700" font-style="italic" text-anchor="middle" letter-spacing="0.5" fill="url(#letters)">PBK</text>
+    <!-- P : stem + top bowl -->
+    <path d="M10 34 V10 H16 A6 6 0 0 1 16 22 H10"/>
 
-    <!-- Small accent dot echoing "ware" / cursor -->
-    <circle cx="52" cy="48" r="2.2" fill="#22d3ee"/>
+    <!-- B : stem + two bowls -->
+    <path d="M27 34 V10 H32 A5.5 5.5 0 0 1 32 21 H27
+             M27 21 H33 A6.5 6.5 0 0 1 33 34 H27"/>
+
+    <!-- K : stem + diagonals meeting at stem midpoint -->
+    <path d="M44 34 V10 M56 10 L44 22 M49 18 L56 34"/>
+  </g>
+
+  <!-- Terminal prompt chevron + cursor dot: bottom half, centred on y = 46 -->
+  <path d="M20 40 L28 46 L20 52" fill="none" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="38" cy="46" r="3" fill="#22d3ee"/>
 </svg>
